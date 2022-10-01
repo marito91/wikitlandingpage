@@ -27,6 +27,7 @@ module.exports = {
         palette3: "#448FFF",
         palette4: "#44D2FF",
         palette5: "#8BFF44",
+        buttonMobile: "#2BE2A0",
       },
     },
   },
