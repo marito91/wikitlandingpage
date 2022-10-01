@@ -14,7 +14,7 @@ export default function Faqs() {
       <h1 className="text-5xl text-center text-primary font-extrabold mt-10 mb-7">
         Frequently Asked Questions
       </h1>
-      <div className="flex items-center w-auto mb-10">
+      <div className="flex items-center w-auto mb-[98px]">
         <p className="text-left m-auto font-normal text-black ">
           With lots of unique blocks, you can easily build a page without
           coding. <br /> Build your next landing page

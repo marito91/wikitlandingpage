@@ -27,16 +27,16 @@ export default function Header() {
           <img className="p-5" src={wikit} alt="" />
         </div>
         <div className="flex justify-center gap-9 w-2/6 align-middle pt-5">
-          <a className="text-secondary" href="">
+          <a className="text-secondary" href="/#">
             Features
           </a>
-          <a className="text-secondary" href="">
+          <a className="text-secondary" href="/#">
             Pricing
           </a>
-          <a className="text-secondary" href="">
+          <a className="text-secondary" href="/#">
             Blog
           </a>
-          <a className="text-secondary" href="">
+          <a className="text-secondary" href="/#">
             What's new?
           </a>
         </div>

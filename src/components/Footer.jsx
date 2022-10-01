@@ -10,19 +10,19 @@ import github from "../assets/github.svg";
 
 export default function Footer() {
   return (
-    <div className="hero container max-w-screen-laptop mx-auto pb-10 h-[1074px] font-bold">
+    <div className="hero container max-w-screen-laptop mx-auto mb-10 h-[1074px] font-bold">
       <img className="mx-auto pb-10 pt-[1098px]" src={wikit} alt="" />
       <div className="flex justify-center gap-9">
-        <a className="text-secondary" href="">
+        <a className="text-secondary" href="/#">
           Features
         </a>
-        <a className="text-secondary" href="">
+        <a className="text-secondary" href="/#">
           Pricing
         </a>
-        <a className="text-secondary" href="">
+        <a className="text-secondary" href="/#">
           Blog
         </a>
-        <a className="text-secondary" href="">
+        <a className="text-secondary" href="/#">
           What's new?
         </a>
       </div>
