@@ -1,13 +1,15 @@
 import "./App.css";
+import Header from "./components/Header";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <>
+      <Header />
       <Faqs />
       <Footer />
-    </div>
+    </>
   );
 }
 
