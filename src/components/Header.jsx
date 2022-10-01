@@ -46,7 +46,7 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <div className="flex flex-row mt-[161px]">
+      <div className="flex flex-row flex-wrap mt-[161px]">
         <div className="w-[50%]">
           <h1 className="text-quinary font-extrabold text-[68px] pl-[152px] leading-[68px] h-[204px] w-[704px]">
             Organized information for remote teams.
@@ -112,8 +112,8 @@ export default function Header() {
             company announcements that entice engagement.
           </p>
         </div>
-        <div className="w-[50%] flex flex-col">
-          <div className="w-[100%] flex flex-nowrap gap-x-10 mt-[126px] ml-[100px]">
+        <div className="w-[50%] flex flex-wrap flex-col">
+          <div className="w-[100%] flex gap-x-10 mt-[126px] ml-[100px]">
             <div className="bg-white rounded-xl w-[177px] h-[60px] shadow-2xl flex">
               <img className="mx-auto w-[142px]" src={vertex} alt="" />
             </div>
@@ -124,7 +124,7 @@ export default function Header() {
               <img className="mx-auto w-[142px]" src={squareStone} alt="" />
             </div>
           </div>
-          <div className="w-[100%] flex flex-nowrap gap-x-10 mt-[29.45px] ml-[150px]">
+          <div className="w-[100%] flex gap-x-10 mt-[29.45px] ml-[150px]">
             <div className="bg-white rounded-xl w-[177px] h-[60px] shadow-2xl flex">
               <img className="mx-auto w-[122px]" src={waverio} alt="" />
             </div>
@@ -134,9 +134,9 @@ export default function Header() {
             <div className="bg-white rounded-xl w-[177px] h-[60px] shadow-2xl flex">
               <img className="mx-auto w-[122px]" src={virogan} alt="" />
             </div>
-            <div className="absolute w-[601px] h-[355px] left-[1364px] top-[1506px] bg-gradient-to-r from-transparent to-background"></div>
+            <div className="absolute w-[601px] h-[355px] left-[1200px] top-[1506px] bg-gradient-to-r from-transparent to-background"></div>
           </div>
-          <div className="w-[100%] flex flex-nowrap gap-x-10 mt-[29.45px] ml-[200px]">
+          <div className="w-[100%] flex gap-x-10 mt-[29.45px] ml-[200px]">
             <div className="bg-white rounded-xl w-[177px] h-[60px] shadow-2xl flex">
               <img className="mx-auto w-[122px]" src={aromix} alt="" />
             </div>
