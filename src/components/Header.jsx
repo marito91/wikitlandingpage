@@ -40,7 +40,7 @@ export default function Header() {
             What's new?
           </a>
         </div>
-        <div className="w-2/6 text-right pr-4 pt-3">
+        <div className="w-2/6 text-right pr-4 pt-3 tabletMax:invisible">
           <button className="bg-tertiary border border-quaternary text-white rounded-lg px-5 py-3 drop-shadow-lg">
             Get early access
           </button>
@@ -102,7 +102,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="bg-background flex flex-wrap w-[100%] laptop:h-[723px] desktop:h-[523px] left-0 top-[976px]">
+      <div className="bg-background flex flex-wrap w-[100%] laptop:h-[723px] desktop:h-[523px] tablet:w-[100%] left-0 top-[976px]">
         <div className="desktop:w-[50%]">
           <h2 className="text-primary text-5xl font-extrabold pt-[160px] pl-[160px]">
             Remote teams love using Wikit

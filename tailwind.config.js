@@ -4,14 +4,17 @@ module.exports = {
   content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     screens: {
-      tablet: "380px",
-      // => @media (min-width: 380px) { ... }
+      tablet: "992px",
+      // => @media (min-width: 992px) { ... }
 
       laptop: "1024px",
       // => @media (min-width: 1024px) { ... }
 
       desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
+
+      tabletMax: { max: "992px" },
+      // => @media (max-width: 992px) { ... }
     },
     extend: {
       colors: {

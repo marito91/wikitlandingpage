@@ -12,7 +12,6 @@ import MobileFooter from "./components/mobile/MobileFooter";
 import { useState, useEffect } from "react";
 
 function App() {
-  // Mobile version not finished
   // const [mobile, setMobile] = useState(true);
   // setMobile(false);
 
@@ -31,6 +30,9 @@ function App() {
   const { width } = useViewport();
   const breakpoint = 440;
 
+  // Mobile version not finished
+  // Mobile version not working on Chrome Mobile DevTools
+  // Opening Local Network on phone works great!
   return width > breakpoint ? (
     <>
       <Header />

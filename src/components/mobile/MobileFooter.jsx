@@ -8,7 +8,7 @@ export default function MobileFooter() {
   return (
     <div>
       <hr className="m-6" />
-      <div className="flex flex-wrap gap-x-[73px] gap-y-[57px] p-8 text-quinary mb-[74px]">
+      <div className="flex flex-wrap gap-x-[60px] gap-y-[57px] p-8 text-quinary mb-[74px]">
         <div className="flex flex-col gap-y-[20px] p-5">
           <h4 className="text-quinary font-semibold">Social Media</h4>
           <img className="w-[15px]" src={divider} alt="" />
