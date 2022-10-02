@@ -4,6 +4,8 @@ import Customers from "./components/Customers";
 import Testimonies from "./components/Testimonies";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
+import MobileHeader from "./components/mobile/MobileHeader";
+import MobileTeams from "./components/mobile/MobileTeams";
 import MobileFaqs from "./components/mobile/MobileFaqs";
 import MobileFooter from "./components/mobile/MobileFooter";
 
@@ -21,6 +23,8 @@ function App() {
     </>
   ) : (
     <>
+      <MobileHeader />
+      <MobileTeams />
       <MobileFaqs />
       <MobileFooter />
     </>

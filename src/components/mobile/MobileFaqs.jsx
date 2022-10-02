@@ -24,7 +24,7 @@ export default function MobileFaqs() {
   };
 
   return (
-    <div className="text-quinary">
+    <div className="text-quinary mt-[200%]">
       <h1 className="font-bold text-2xl text-center">FAQ</h1>
       {/* Functional accordion just for the purpose of demo */}
       <div className="flex justify-between text-base font-bold p-5">
