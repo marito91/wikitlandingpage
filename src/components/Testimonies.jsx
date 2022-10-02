@@ -60,7 +60,7 @@ export default function Testimonies() {
         {testimonies.map((testimony) => (
           <div className="">
             <div className="max-h-[240px] max-w-[380px] rounded-xl p-7 bg-gray-200">
-              {testimony.content}]
+              {testimony.content}
             </div>
             <div className="p-[6px] flex gap-[16px] pt-[25px]">
               <img src={require(`../assets/${testimony.pic}.svg`)} alt="" />

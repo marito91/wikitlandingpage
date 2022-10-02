@@ -20,7 +20,7 @@ import update from "../../assets/mobileAssets/update.svg";
 
 export default function mobileHeader() {
   return (
-    <div>
+    <div className="w-[100%]">
       <nav className="p-5 flex justify-between">
         <img src={hamburger} alt="" />
         <img className="m-auto" src={weware} alt="" />
@@ -73,11 +73,11 @@ export default function mobileHeader() {
         />
       </div>
       <div>
-        <p className="absolute w-[343px] h-[71px] left-[47px] top-[367px] text-center text-quinary">
+        <p className="m-auto w-[343px] h-[71px] mt-[80%] text-center text-quinary">
           <strong>Weware means:</strong> Easy to find knowledge, content and
           proceses. Announcements, team engagement, recognition and profiles. 🙌
         </p>
-        <div className="flex flex-col gap-y-6 justify-center mt-[100%]">
+        <div className="flex flex-col gap-y-6 justify-center mt-[20%]">
           <input
             className="p-3 text border border-blue-900 rounded-lg w-80 m-auto"
             type="email"
@@ -90,7 +90,7 @@ export default function mobileHeader() {
           />
         </div>
         <img
-          className="absolute top-[717px] left-[29px]"
+          className="absolute top-[717px] left-[7px]"
           src={announce}
           alt=""
         />

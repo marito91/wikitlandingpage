@@ -46,43 +46,43 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <div className="flex flex-row flex-wrap mt-[161px]">
-        <div className="w-[50%]">
-          <h1 className="text-quinary font-extrabold text-[68px] pl-[152px] leading-[68px] h-[204px] w-[704px]">
+      <div className="flex flex-row flex-wrap mt-[161px] max-w-[100%]">
+        <div className="desktop:w-[50%] pl-36">
+          <h1 className="text-quinary font-extrabold text-[68px]  leading-[68px]">
             Organized information for remote teams.
           </h1>
-          <p className="text-quinary mt-[34px] pl-[152px] w-[533px] font-normal">
+          <p className="text-quinary mt-[34px] w-[533px] font-normal">
             Easy to find knowledge, content and proceses. Team announcements,
             team engagement and profiles.🙌
           </p>
-          <button className="bg-tertiary border border-quaternary text-white rounded-lg px-10 py-3 drop-shadow-lg ml-[152px] mt-[34px]">
+          <button className="bg-tertiary border border-quaternary text-white rounded-lg px-10 py-3 drop-shadow-lg mt-[34px]">
             Get early access
           </button>
-          <p className="text-secondary pl-[152px] mt-[34px] font-normal">
+          <p className="text-secondary mt-[34px] font-normal">
             We're sending out invites all the time. 14 day free trial, no cc
             required.
           </p>
-          <div className="flex flex-row mt-[40px] pl-[152px] gap-1.5">
+          <div className="flex flex-row mt-[40px] gap-1.5">
             <img src={star} alt="" />
             <img src={star} alt="" />
             <img src={star} alt="" />
             <img src={star} alt="" />
             <img src={star} alt="" />
           </div>
-          <h3 className="text-primary text-lg font-bold pl-[152px] mt-[19.74px]">
+          <h3 className="text-primary text-lg font-bold mt-[19.74px]">
             Truly needed as a remote-first company!
           </h3>
-          <p className="text-secondary pl-[152px] mt-[34px] w-[553px] font-normal">
+          <p className="text-secondary mt-[34px] w-[553px] font-normal">
             Consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum
             arcu, aliquam nulla tincidunt gravida. Cursus convallis dolor semper
             pretium ornare.
           </p>
-          <div className="pl-[152px] mt-[20px] flex flex-row gap-[11px]">
+          <div className="mt-[20px] flex flex-row gap-[11px]">
             <img src={denny} alt="" />
             <p className="text-primary text-lg font-bold">Denny Jones</p>
           </div>
         </div>
-        <div className="w-[50%]">
+        <div className="desktop:w-[50%] pl-9">
           <img className="relative left-[-2px] top-[185px]" src={mini} alt="" />
           <img
             className="relative w-[456px] h-[462px] left-[54px] top-[8px] drop-shadow-2xl"
@@ -102,8 +102,8 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="bg-background flex w-[100%] h-[523px] left-0 top-[976px]">
-        <div className="w-[50%]">
+      <div className="bg-background flex flex-wrap w-[100%] laptop:h-[723px] desktop:h-[523px] left-0 top-[976px]">
+        <div className="desktop:w-[50%]">
           <h2 className="text-primary text-5xl font-extrabold pt-[160px] pl-[160px]">
             Remote teams love using Wikit
           </h2>
@@ -112,7 +112,7 @@ export default function Header() {
             company announcements that entice engagement.
           </p>
         </div>
-        <div className="w-[50%] flex flex-wrap flex-col">
+        <div className="desktop:w-[50%] flex flex-wrap flex-col">
           <div className="w-[100%] flex gap-x-10 mt-[126px] ml-[100px]">
             <div className="bg-white rounded-xl w-[177px] h-[60px] shadow-2xl flex">
               <img className="mx-auto w-[142px]" src={vertex} alt="" />
