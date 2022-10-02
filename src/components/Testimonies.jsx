@@ -58,7 +58,7 @@ export default function Testimonies() {
       </div>
       <div className="m-auto w-[50%] mb-[790px] grid grid-cols-2 gap-x-[10px] gap-y-[40px] justify-center">
         {testimonies.map((testimony) => (
-          <div className="">
+          <div key={testimony.name} className="">
             <div className="max-h-[240px] max-w-[380px] rounded-xl p-7 bg-gray-200">
               {testimony.content}
             </div>

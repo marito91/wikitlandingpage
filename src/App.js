@@ -15,6 +15,8 @@ function App() {
   // const [mobile, setMobile] = useState(true);
   // setMobile(false);
 
+  // Function for recognizing window size and handling viewport
+
   const useViewport = () => {
     const [width, setWidth] = useState(window.innerWidth);
 
@@ -28,7 +30,7 @@ function App() {
   };
 
   const { width } = useViewport();
-  const breakpoint = 440;
+  const breakpoint = 440; // For mobile
 
   // Mobile version not finished
   // Mobile version not working on Chrome Mobile DevTools

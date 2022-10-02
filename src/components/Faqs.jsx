@@ -23,7 +23,7 @@ export default function Faqs() {
 
       <div className="m-auto w-[50%] mb-[790px] grid grid-cols-2 gap-x-[10px] gap-y-[40px] justify-center">
         {faqs.map((faq) => (
-          <div className="">
+          <div key={faq} className="">
             <h1 className="font-normal text-primary text-xl mb-6">{faq}</h1>
             <div className="p-[6px] flex gap-[16px] pt-[25px]">
               <p>

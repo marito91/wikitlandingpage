@@ -51,7 +51,11 @@ export default function MobileTeams() {
       </h2>
       <div className="m-auto grid grid-cols-2 p-6 gap-x-[64px] gap-y-[16px] justify-center">
         {teams.map((team) => (
-          <img src={require(`../../assets/mobileAssets/${team}.svg`)} alt="" />
+          <img
+            key={team}
+            src={require(`../../assets/mobileAssets/${team}.svg`)}
+            alt=""
+          />
         ))}
       </div>
       <div className="text-quinary">

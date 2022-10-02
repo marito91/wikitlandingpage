@@ -42,7 +42,10 @@ export default function MobileFaqs() {
       {emptyAccordions.map((acc) => (
         <>
           <hr className="m-3" />
-          <div className="flex justify-between text-base font-bold p-5">
+          <div
+            key={accordion.faq}
+            className="flex justify-between text-base font-bold p-5"
+          >
             <h3>{accordion.faq}</h3>
             <img src={closed} alt="" />
           </div>

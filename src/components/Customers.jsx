@@ -39,7 +39,7 @@ export default function Customers() {
           <div className="w-[272px] h-[307px] border rounded-lg border-gray-200 shadow-lg gap-y-4 flex flex-col p-4">
             <h6 className="text-secondary max-w-lg font-normal">Customers</h6>
             {people.map((customer) => (
-              <div className="flex gap-x-2">
+              <div key={customer.name} className="flex gap-x-2">
                 <img src={require(`../assets/${customer.pic}.svg`)} alt="" />
                 <label htmlFor="">{customer.name}</label>
               </div>
@@ -82,7 +82,7 @@ export default function Customers() {
 
           {/* {Text Row results} */}
           {titles.map((title) => (
-            <div className="w-[306px] h-[95px] ">
+            <div key={title} className="w-[306px] h-[95px] ">
               <h3 className="font-normal text-primary text-xl">{title}</h3>
               <p className="text-secondary max-w-lg font-normal text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -97,7 +97,7 @@ export default function Customers() {
           <div className="w-[272px] h-[307px] border rounded-lg border-gray-200 shadow-lg gap-y-4 flex flex-col p-4">
             <h6 className="text-secondary max-w-lg font-normal">Customers</h6>
             {people.map((customer) => (
-              <div className="flex gap-x-2">
+              <div key={customer.name} className="flex gap-x-2">
                 <img src={require(`../assets/${customer.pic}.svg`)} alt="" />
                 <label htmlFor="">{customer.name}</label>
               </div>
@@ -139,7 +139,7 @@ export default function Customers() {
           </div>
           {/* {Text Row results} */}
           {titles.map((title) => (
-            <div className="w-[306px] h-[95px] mt-9">
+            <div key={title} className="w-[306px] h-[95px] mt-9">
               <h3 className="font-normal text-primary text-xl">{title}</h3>
               <p className="text-secondary max-w-lg font-normal text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
